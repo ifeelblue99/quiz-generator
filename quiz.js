@@ -41,3 +41,9 @@ const displayQuestions = (obj)=>{
 questions.forEach(displayQuestions); 
 
 
+// change this part
+finishBtn.addEventListener("click", ()=>{
+    document.getElementById("title").textContent = "I will fix this part soon."
+    document.getElementById("title").style.backgroundColor = "#ff0000"
+
+})
