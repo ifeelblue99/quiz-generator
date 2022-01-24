@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qGenerator</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a target="_blank" id="twitter-link" 
+            href="https://twitter.com/iFeelBlue13">
+                <img src="twitter.png" alt="twitter">
+            </a>
+
+            <a target="_blank" id="github-link" 
+            href="https://github.com/ifeelblue99">
+                <img src="github.png" alt="github">
+            </a>
+            
+            <a target="_blank" id="github-link" 
+            href="https://github.com/ifeelblue99">
+                <img src="in.png" alt="linkedin">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <aside class="aside-info">
+                <h1>Question generator</h1>
+                <p>this app was buit for generating questions</p>
+                <p>it is open source, you can find it on github</p>
+                <p>it is open source, you can find it on github</p>
+                <p>it is open source, you can find it on github</p>
+                <p>it is open source, you can find it on github</p>
+                <p>it is open source, you can find it on github</p>
+            </aside>
+            <section class="q-generate">
+                <textarea name="q-area" id="q-area" cols="30" rows="10"></textarea>
+                <input placeholder="type correct answer here" id="q-correct" type="text">
+                <input placeholder="Wrong answer" id="q-wrong1" type="text">
+                <input placeholder="Wrong answer" id="q-wrong2" type="text">
+                <input placeholder="Wrong answer" id="q-wrong3" type="text">
+                <button class="button" id="q-save-btn">Save</button>
+                <button class="button" id="q-reset-btn">Reset All</button>
+                <button class="button" id="q-ready-btn">Ready</button>
+            </section>
+        </div>
+        <footer>
+            <p>Generated questions:</p>
+            <div class="generated-q-show" id="cont">
+                
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
